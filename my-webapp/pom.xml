@@ -12,7 +12,12 @@
     </properties>
     
     <dependencies>
-        <!-- Add your dependencies here -->
+        <dependency>
+          <groupId>javax.servlet</groupId>
+          <artifactId>javax.servlet-api</artifactId>
+          <version>4.0.1</version> <!-- or any other version compatible with your project -->
+          <scope>provided</scope>
+        </dependency>
     </dependencies>
     
     <build>
